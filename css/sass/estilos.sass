@@ -10,120 +10,119 @@ body
 	transition: .8s ease all	
 	&.dark
 		background: #111320
-		
 
 //========================================
 //DARK-MODE
 //========================================
 .switch 
-    background: #343D5B
-    border-radius: 1000px
-    border: none
-    position: relative
-    cursor: pointer
-    display: flex
-    outline: none
-    span 
-        width: 30px
-        height: 30px
-        line-height: 30px
-        display: block
-        background: none
-        color: #fff
+background: #343D5B
+border-radius: 1000px
+border: none
+position: relative
+cursor: pointer
+display: flex
+outline: none
+span 
+width: 30px
+height: 30px
+line-height: 30px
+display: block
+background: none
+color: #fff
 
 .switch::after 
-    content: ""
-    display: block
-    width: 30px
-    height: 30px
-    position: absolute
-    background: #F1F1F1
-    top: 0
-    left: 0
-    right: unset
-    border-radius: 100px
-    -webkit-transition: .3s ease all
-    transition: .3s ease all
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+content: ""
+display: block
+width: 30px
+height: 30px
+position: absolute
+background: #F1F1F1
+top: 0
+left: 0
+right: unset
+border-radius: 100px
+-webkit-transition: .3s ease all
+transition: .3s ease all
+box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2)
 
 .switch.active 
-    background: orange
-    color: #000
+background: orange
+color: #000
 
 .switch.active::after 
-    right: 0
-    left: unset
+right: 0
+left: unset
 
 //========================================
 //TITULO
 //========================================
 .titulo
-	body.dark &
-		color: #fff
+body.dark &
+	color: #fff
 
 //========================================
 //CALCULADORA
 //========================================
 .fondo
-    position: relative
-    margin: 20px auto
-    padding-bottom: 20px 
-    width: 400px
-    border: 1px solid #aaa
-    border-radius: 10%
-    background:#f3f3f6
-    box-shadow: inset 64px 87px 37px -7px rgba(0,0,0,0.05)
-    body.dark &
-        background: #171a2c
-        border: #2C3246
+position: relative
+margin: 20px auto
+padding-bottom: 20px 
+width: 400px
+border: 1px solid #aaa
+border-radius: 10%
+background:#f3f3f6
+box-shadow: inset 64px 87px 37px -7px rgba(0,0,0,0.05)
+body.dark &
+background: #171a2c
+border: #2C3246
 
 .pantalla
-    position: relative
-    margin: 40px auto 20px auto
-    padding: 8px
-    width: 90%
-    background: #f2f2f2
-    height: 130px
-    border: 1px solid #ccc
-    border-radius: 10px
-    text-align: right
-    font-size: 40px
-    overflow: hidden
-    body.dark &
-        background: #111320
-        color: #88898F
-        border-color: #1A1D31
+position: relative
+margin: 40px auto 20px auto
+padding: 8px
+width: 90%
+background: #f2f2f2
+height: 130px
+border: 1px solid #ccc
+border-radius: 10px
+text-align: right
+font-size: 40px
+overflow: hidden
+body.dark &
+background: #111320
+color: #88898F
+border-color: #1A1D31
 
 ul .fila
-    margin: 20px 0px
-    li
-        background: #f2f2f2
-        width: 52px
-        height: 45px
-        font-size: 20px        
-        border-radius: 15%
-        box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.3)
-        text-align: center
-        list-style: none
-        cursor: pointer
-        display: flex
-        align-items: center
-        justify-content: center
-        &:hover
-            opacity: 0.6
-        body.dark &
-            background: #111320
-            border-color: #04050D
-            color: #88898F	
-            box-shadow: -4px -2px 5px 3px rgba(255,255,255,0.1)
-    #az1, #az2
-        color: blue
-    .h
-        visibility: hidden
-    .igual
-        position: absolute
-        left: 77.8%
-        top: 75%
-        padding: 55px 0px
-        border-radius: 9%
-        z-index: 10
+margin: 20px 0px
+li
+background: #f2f2f2
+width: 52px
+height: 45px
+font-size: 20px        
+border-radius: 15%
+box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.3)
+text-align: center
+list-style: none
+cursor: pointer
+display: flex
+align-items: center
+justify-content: center
+&:hover
+opacity: 0.6
+body.dark &
+background: #111320
+border-color: #04050D
+color: #88898F	
+box-shadow: -4px -2px 5px 3px rgba(255,255,255,0.1)
+#az1, #az2
+color: blue
+.h
+visibility: hidden
+.igual
+position: absolute
+left: 77.8%
+top: 75%
+padding: 0px 0px
+border-radius: 9%
+z-index: 10

@@ -116,13 +116,13 @@ ul .fila {
       -webkit-box-shadow: -4px -2px 5px 3px rgba(255, 255, 255, 0.1);
               box-shadow: -4px -2px 5px 3px rgba(255, 255, 255, 0.1); }
   ul .fila #az1, ul .fila #az2 {
-    color: blue; }
+    color: #0d6efd; }
   ul .fila .h {
     visibility: hidden; }
   ul .fila .igual {
     position: absolute;
     left: 77.8%;
-    top: 75%;
+    top: 72.2%;
     padding: 55px 0px;
     border-radius: 9%;
     z-index: 10; }

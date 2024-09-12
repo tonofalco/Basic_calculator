@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="icon" type="image/png" href="/img/calcu.png"/>
+    <link rel="icon" type="image/png" href="/img/calcu.png" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/b4/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilos.css">
-    <title>Calculadora 2</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
+    <title>-- Calculadora --</title>
     <div class="container">
+
         <div class="row">
-            <div class="col-12 text-center titulo">
-                <h1>Calculadora</h1>
+            <div class="col-12 text-center titulo mt-5">
+                <h1 class="font-weight-bold">Calculadora Digital</h1>
+            </div>
+            <div class="col-12 cambio mt-1 d-flex justify-content-center">
+                <div>
+                    <button class="switch" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="cambio">
-            <button class="switch" id="switch">
-                <span><i class="fas fa-sun"></i></span>
-                <span><i class="fas fa-moon"></i></span>
-            </button>
-        </div>
-        <div class="row">
-            <div class="fondo col-xl-4 col-lg-5 col-md-6 col-xs-7" id="calculadora"  >
+
+        <div class="row mt-5">
+            <div class="fondo col-xl-4 col-lg-5 col-md-6 col-xs-7" id="calculadora">
                 <div class="pantalla" id="operaciones">0</div>
 
                 <ul>
-                    <div class="fila d-flex justify-content-around ">
-                        <li class="p">mc</li>
-                        <li class="p">m+</li>
-                        <li class="p">m-</li>
-                        <li class="p">mrL</li>
-                    </div>
                     <div class="fila d-flex justify-content-around text-primary ">
                         <li class="p">c</li>
                         <li class="signo">/</li>
@@ -72,10 +72,11 @@
             </div>
         </div>
     </div>
-    
+
     <script src="js/calculadora.js"></script>
     <script src="js/darkmode.js"></script>
     <script src="js/b4/jquery-3.3.1.min.js"></script>
     <script src="js/b4/bootstrap.min.js"></script>
 </body>
+
 </html>
