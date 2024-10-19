@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,4 +81,87 @@
 </body>
 
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="/img/calcu.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/b4/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <title>-- Calculadora --</title>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 text-center titulo mt-5">
+                <h1 class="font-weight-bold">Calculadora Digital</h1>
+            </div>
+            <div class="col-12 cambio mt-1 d-flex justify-content-center">
+                <div>
+                    <button class="switch" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="fondo col-xl-4 col-lg-5 col-md-6 col-xs-7" id="calculadora">
+                <div class="pantalla" id="operaciones">0</div>
+
+                <ul>
+                    <div class="fila d-flex justify-content-around text-primary ">
+                        <li class="p" onclick="m.borrarCalculadora()">c</li>
+                        <li class="signo">/</li>
+                        <li class="signo">*</li>
+                        <li class="p"  onclick="m.borrarUnDigito()">DEL</li>
+                    </div>
+                    <div class="fila d-flex justify-content-around">
+                        <li class="numero">8</li>
+                        <li class="numero">9</li>
+                        <li class="numero">7</li>
+                        <li class="signo" id="az1">-</li>
+                    </div>
+                    <div class="fila d-flex justify-content-around">
+                        <li class="numero">6</li>
+                        <li class="numero">5</li>
+                        <li class="numero">4</li>
+                        <li class="signo" id="az2">+</li>
+                    </div>
+                    <div class="fila d-flex justify-content-around">
+                        <li class="numero">3</li>
+                        <li class="numero">2</li>
+                        <li class="numero">1</li>
+                        <li class="h"></li>
+                    </div>
+                    <div class="fila d-flex justify-content-around">
+                        <li class="numero">0</li>
+                        <li class="decimal">.</li>
+                        <li class="signo">%</li>
+                        <li class="h"></li>
+                    </div>
+                    <div class="fila text-primary">
+                        <li class="igual">=</li>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/calculadora.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/b4/jquery-3.3.1.min.js"></script>
+    <script src="js/b4/bootstrap.min.js"></script>
+</body>
+
+>>>>>>> 93031865f86d48e6120f9b5fef9a989edd52a0f5
 </html>
